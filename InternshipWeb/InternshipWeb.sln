@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.Mvc", "Internshi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.Domain", "Internship.Domain\Internship.Domain.csproj", "{9BCE0168-75BE-4C18-9FFD-CA60C55B6E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.IoC", "Internship.IoC\Internship.IoC.csproj", "{01AE31E9-CB94-4246-9DED-7147F24D97E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.Data", "Internship.IoC\Internship.Data.csproj", "{01AE31E9-CB94-4246-9DED-7147F24D97E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

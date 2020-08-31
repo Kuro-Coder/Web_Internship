@@ -4,7 +4,7 @@ using System.Text;
 using Internship.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Internship.IoC.Context
+namespace Internship.Data.Context
 {
     public class InternshipDBContext:DbContext
     {
