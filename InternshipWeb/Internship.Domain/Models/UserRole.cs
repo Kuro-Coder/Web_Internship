@@ -7,6 +7,11 @@ namespace Internship.Domain.Models
 {
     public class UserRole
     {
+        public UserRole()
+        {
+            
+        }
+
         [Key]
         public int UserRoleId { get; set; }
 
@@ -16,7 +21,8 @@ namespace Internship.Domain.Models
 
         #region Relations
 
-
+        public virtual User User { get; set; }
+        public virtual Role Role { get; set; }
 
         #endregion
     }

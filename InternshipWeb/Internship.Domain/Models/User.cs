@@ -7,6 +7,11 @@ namespace Internship.Domain.Models
 {
     public class User
     {
+        public User()
+        {
+            
+        }
+
         [Key]
         public int UserId { get; set; }
 
@@ -42,5 +47,10 @@ namespace Internship.Domain.Models
         [Display(Name = "تاریخ ثبت نام")]
         public DateTime CreateDate { get; set; }
 
+        #region Relations
+
+        public virtual List<UserRole> UserRoles { get; set; }
+
+        #endregion
     }
 }
