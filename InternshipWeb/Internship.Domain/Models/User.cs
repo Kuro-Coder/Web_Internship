@@ -12,6 +12,7 @@ namespace Internship.Domain.Models
         public string Password { get; set; }
         public bool IsActive { get; set; }
         public bool IsDelete { get; set; }
+        public string UserImg { get; set; }
         public DateTime CreateDate { get; set; }
 
     }
