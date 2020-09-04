@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InternShip.App\InternShip.App.csproj" />
     <ProjectReference Include="..\Internship.Domain\Internship.Domain.csproj" />
   </ItemGroup>
 
