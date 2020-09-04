@@ -6,8 +6,10 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Sernices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Internship.Domain\Internship.Domain.csproj" />
   </ItemGroup>
 
 </Project>
