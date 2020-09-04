@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Internship.Infra.IoC\Internship.Infra.IoC.csproj" />
     <ProjectReference Include="..\Internship.IoC\Internship.Data.csproj" />
   </ItemGroup>
 
